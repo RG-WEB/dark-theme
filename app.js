@@ -40,7 +40,7 @@ const articles = [
 function displayContent(textContent) {
   const text = textContent.map(function (item) {
     // console.log(item);
-    const date = new Intl.DateTimeFormat("fr-FR", {
+    const date = new Intl.DateTimeFormat("en-US", {
       dateStyle: "medium",
     }).format(new Date());
     return `
